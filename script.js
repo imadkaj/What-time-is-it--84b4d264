@@ -1,5 +1,5 @@
 let input = document.querySelector("input");
-let message = document.querySelector("h1");
+let message = document.querySelector("h3");
 
 const pi = 3.14;
 
@@ -17,4 +17,8 @@ function berekenOppervlakte()
 function showMessage()
 {
     message.innerText = "De omtrek van de circel is: " + berekenOmtrek() + " en de oppervlakte is: " + berekenOppervlakte();
+}
+{
+    var d = new Date();
+document.getElementById("demo").innerHTML = d;
 }
